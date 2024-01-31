@@ -44,7 +44,7 @@ export const ProjectData = [
     tool: "WordPress",
     image: RoyalX,
     Categories: "Website",
-    link: "https://royalx.com",
+    link: "https://royalx.in",
     complete: "completed",
   },
   {
