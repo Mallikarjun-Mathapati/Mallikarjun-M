@@ -16,8 +16,8 @@ export const ProjectData = [
     tittle: "VPAtomic",
     tool: "React",
     image: VPAtomic,
-    Categories: "Coming Soon...",
-    link: "/",
+    Categories: "Website",
+    link: "https://vpatomic.com",
     complete: "Pending",
   },
   {

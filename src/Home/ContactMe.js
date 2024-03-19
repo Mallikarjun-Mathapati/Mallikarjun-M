@@ -21,13 +21,15 @@ const ContactMe = () => {
               <img src={Phone} alt="" />
               <Link to="tel:918095183988">+91 8095183988</Link>
             </Link>
-            <Link
-              to="mailto:Mallikarjun000007@gmail.com"
-              className=" contact-same-lank contact-email"
-            >
-              <img src={Email} alt="" />
-              <Link to="mailto:Mallikarjun000007@gmail.com">e-Mail</Link>
-            </Link>
+            <abbr title="Mallikarjun000007@gmail.com">
+              <Link
+                to="mailto:Mallikarjun000007@gmail.com"
+                className=" contact-same-lank contact-email"
+              >
+                <img src={Email} alt="" />
+                <Link to="mailto:Mallikarjun000007@gmail.com">e-Mail</Link>
+              </Link>
+            </abbr>
             <Link
               to="https://github.com/Mallikarjun-Mathapati"
               target="_blank"

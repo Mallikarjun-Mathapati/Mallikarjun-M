@@ -6,7 +6,9 @@ const TextScroll = (props) => {
     <>
       <div className={`text-scroll-auto ${props.textScrollClassName}`}>
         <div className="text-scroll-auto-1">
-          <p>REACT DEVELOPER #WEB DESIGNER #MERN DEVELOPER #UX DESIGNER </p>
+          <p>
+            REACT DEVELOPER #WEB DESIGNER #MERN STACK DEVELOPER #UX DESIGNER{" "}
+          </p>
         </div>
       </div>
     </>

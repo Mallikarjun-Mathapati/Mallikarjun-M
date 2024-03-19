@@ -12,6 +12,7 @@ body {
   color: white;
   background: #000;
   font-family: "Montserrat", sans-serif;
+  background-image: url("./Images/R.png");
 }
 
 .container {
@@ -56,4 +57,7 @@ h2 {
   h2 {
     font-size: 2rem;
   }
+}
+abbr {
+  text-decoration: none;
 }
