@@ -18,7 +18,7 @@ export const ProjectData = [
     image: VPAtomic,
     Categories: "Website",
     link: "https://vpatomic.com",
-    complete: "Pending",
+    complete: "Completed",
   },
   {
     id: 2,

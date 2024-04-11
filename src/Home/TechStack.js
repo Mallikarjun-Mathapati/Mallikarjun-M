@@ -9,6 +9,7 @@ import WordPress from "../Images/Home/TechSt/bi_wordpress.svg";
 import Figma from "../Images/Home/TechSt/logos_figma.svg";
 import XD from "../Images/Home/TechSt/logos_adobe-xd.svg";
 import Illustrator from "../Images/Home/TechSt/logos_adobe-illustrator.svg";
+import NextJs from "../Images/Home/TechSt/nextjs.svg";
 
 const TechStack = () => {
   const TechStackData = [
@@ -34,31 +35,36 @@ const TechStack = () => {
     },
     {
       id: 5,
+      tittle: "Next.js",
+      img: NextJs,
+    },
+    {
+      id: 6,
       tittle: "Node.js",
       img: Node,
     },
     {
-      id: 6,
+      id: 7,
       tittle: "MongoDB",
       img: Mongodb,
     },
     {
-      id: 7,
+      id: 8,
       tittle: "WordPress",
       img: WordPress,
     },
     {
-      id: 8,
+      id: 9,
       tittle: "Figma",
       img: Figma,
     },
     {
-      id: 9,
+      id: 10,
       tittle: "Adobe XD",
       img: XD,
     },
     {
-      id: 10,
+      id: 11,
       tittle: "Adobe Illustrator",
       img: Illustrator,
     },
