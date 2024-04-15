@@ -9,10 +9,23 @@ import YoucanUse from "../Images/Projects/YouCanUse.png";
 import NxtSkills2 from "../Images/Projects/NXTSkills2.png";
 import LatPas from "../Images/Projects/Latpas.png";
 import ElectronicShop from "../Images/Projects/ElectronicShop.png";
+import BookMart from "../Images/Projects/BookMart.png";
+import ShopTop from "../Images/Projects/ShopTop.png";
+import DashBoard from "../Images/Projects/Dashbord.png";
+import Proshikhar from "../Images/Projects/ProShikhar.png";
 
 export const ProjectData = [
   {
     id: 1,
+    tittle: "Proshikhar",
+    tool: "React",
+    image: Proshikhar,
+    Categories: "Website",
+    link: "https://mallikarjun-mathapati.github.io/Proshikhar/",
+    complete: "Still Working...",
+  },
+  {
+    id: 2,
     tittle: "VPAtomic",
     tool: "React",
     image: VPAtomic,
@@ -21,7 +34,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 2,
+    id: 3,
     tittle: "NxtSkills",
     tool: "React",
     image: NxtSkills,
@@ -30,7 +43,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 3,
+    id: 4,
     tittle: "RentalCar",
     tool: "React",
     image: RentalCar,
@@ -39,7 +52,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 4,
+    id: 5,
     tittle: "RoyalX",
     tool: "WordPress",
     image: RoyalX,
@@ -48,7 +61,7 @@ export const ProjectData = [
     complete: "completed",
   },
   {
-    id: 5,
+    id: 6,
     tittle: "Electronic Shop",
     tool: "React",
     image: ElectronicShop,
@@ -57,7 +70,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 6,
+    id: 7,
     tittle: "Stratos IT Solution ",
     tool: "WordPress",
     image: StratosIT,
@@ -66,7 +79,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 7,
+    id: 8,
     tittle: "BUD Digital",
     tool: "React",
     image: BUDDigital,
@@ -75,7 +88,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 8,
+    id: 9,
     tittle: "YouCanUse",
     tool: "React",
     image: YoucanUse,
@@ -84,7 +97,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 9,
+    id: 10,
     tittle: "Dons  Shop",
     tool: "HTML,CSS,Javascript",
     image: DonsShop,
@@ -93,7 +106,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 10,
+    id: 11,
     tittle: "NxtSkills",
     tool: "Designed(Figma)",
     image: NxtSkills2,
@@ -102,12 +115,40 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 11,
+    id: 12,
     tittle: "LatPas",
     tool: "Designed(Figma)",
     image: LatPas,
     Categories: "Website",
     link: "/",
+    complete: "Completed",
+  },
+  {
+    id: 13,
+    tittle: "BookMart",
+    tool: "Designed(Figma)",
+    image: BookMart,
+    Categories: "App(UX Design)",
+    link: "https://www.behance.net/mallu007",
+    complete: "Completed",
+  },
+
+  {
+    id: 14,
+    tittle: " ShopTop",
+    tool: "Designed(Figma)",
+    image: ShopTop,
+    Categories: "Website",
+    link: "https://www.behance.net/mallu007",
+    complete: "Completed",
+  },
+  {
+    id: 15,
+    tittle: " DashBoard",
+    tool: "Designed(Figma)",
+    image: DashBoard,
+    Categories: "Website",
+    link: "https://www.behance.net/mallu007",
     complete: "Completed",
   },
 ];

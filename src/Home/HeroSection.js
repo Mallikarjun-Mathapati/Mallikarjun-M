@@ -27,20 +27,24 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="hero-section-social-link">
-              <Link
-                to="https://www.linkedin.com/in/mallikarjun-mathapati-6277a0215/"
-                target="_blank"
-                className="hero-section-social-link-linkedin flex"
-              >
-                <img src={Linked_in} alt="" />
-              </Link>
-              <Link
-                to="https://github.com/Mallikarjun-Mathapati"
-                target="_blank"
-                className="hero-section-social-link-linkedin hero-section-social-link-github flex"
-              >
-                <img src={Git_hub} alt="" />
-              </Link>
+              <abbr title="LinkedIn">
+                <Link
+                  to="https://www.linkedin.com/in/mallikarjun-mathapati-6277a0215/"
+                  target="_blank"
+                  className="hero-section-social-link-linkedin flex"
+                >
+                  <img src={Linked_in} alt="" />
+                </Link>
+              </abbr>
+              <abbr title="GitHub">
+                <Link
+                  to="https://github.com/Mallikarjun-Mathapati"
+                  target="_blank"
+                  className="hero-section-social-link-linkedin hero-section-social-link-github flex"
+                >
+                  <img src={Git_hub} alt="" />
+                </Link>
+              </abbr>
             </div>
           </div>
         </div>

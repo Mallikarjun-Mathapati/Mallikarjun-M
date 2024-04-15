@@ -86,10 +86,12 @@ const TechStack = () => {
           <div className="tach-stack-main-software">
             {TechStackData.map((curr) => {
               return (
-                <div className="tech-stack-main-software-same" key={curr.id}>
-                  <img src={curr.img} alt={curr.tittle} />
-                  <h4>{curr.tittle}</h4>
-                </div>
+                <abbr title={curr.tittle}>
+                  <div className="tech-stack-main-software-same" key={curr.id}>
+                    <img src={curr.img} alt={curr.tittle} />
+                    <h4>{curr.tittle}</h4>
+                  </div>
+                </abbr>
               );
             })}
           </div>
