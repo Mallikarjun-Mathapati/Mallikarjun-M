@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mallikarjun-M/static/css/main.2b791f79.css",
-    "main.js": "/Mallikarjun-M/static/js/main.336b2ada.js",
+    "main.js": "/Mallikarjun-M/static/js/main.aa7e72f2.js",
     "static/js/787.2b0087e0.chunk.js": "/Mallikarjun-M/static/js/787.2b0087e0.chunk.js",
     "static/media/hero Background.svg": "/Mallikarjun-M/static/media/hero Background.533fd83d265f2f4a68d2.svg",
     "static/media/Background.png": "/Mallikarjun-M/static/media/Background.956d63ace4d55ac75046.png",
@@ -13,11 +13,15 @@
     "static/media/BudDidital.png": "/Mallikarjun-M/static/media/BudDidital.ae8cabd7339388014509.png",
     "static/media/Straros.png": "/Mallikarjun-M/static/media/Straros.569330619af2a142d685.png",
     "static/media/NXTSkills2.png": "/Mallikarjun-M/static/media/NXTSkills2.3a803aa849ba4e012ce1.png",
+    "static/media/ShopTop.png": "/Mallikarjun-M/static/media/ShopTop.3784173f02d3c71364fa.png",
+    "static/media/ProShikhar.png": "/Mallikarjun-M/static/media/ProShikhar.673909ebfbb554f9b040.png",
     "static/media/DonsShop.png": "/Mallikarjun-M/static/media/DonsShop.898fde2e03ebd83e1ee4.png",
     "static/media/RentalCars.png": "/Mallikarjun-M/static/media/RentalCars.4fabe0f2ba25c68c90ba.png",
     "static/media/ElectronicShop.png": "/Mallikarjun-M/static/media/ElectronicShop.9b9a44278582767f7108.png",
     "static/media/creative.png": "/Mallikarjun-M/static/media/creative.a14c0467b5d2af6d7396.png",
+    "static/media/BookMart.png": "/Mallikarjun-M/static/media/BookMart.52f6b6b3ab2ca6155c96.png",
     "static/media/VPAtomic.png": "/Mallikarjun-M/static/media/VPAtomic.d61218e5f0f62a112168.png",
+    "static/media/Dashbord.png": "/Mallikarjun-M/static/media/Dashbord.c46131d6512fd4cf0a39.png",
     "static/media/devicon_mongodb.svg": "/Mallikarjun-M/static/media/devicon_mongodb.930f75c902f9e11e6dc57dbeb95ff10e.svg",
     "static/media/logos_react.svg": "/Mallikarjun-M/static/media/logos_react.789b75e5f82c1a2b1c3e86caee665488.svg",
     "static/media/logos_adobe-xd.svg": "/Mallikarjun-M/static/media/logos_adobe-xd.8cf5a00f2513771628a02af207c1ae9f.svg",
@@ -42,11 +46,11 @@
     "index.html": "/Mallikarjun-M/index.html",
     "static/media/ic_baseline-email.svg": "/Mallikarjun-M/static/media/ic_baseline-email.7315601366d3a8d8f5c8936ce8c8d2f8.svg",
     "main.2b791f79.css.map": "/Mallikarjun-M/static/css/main.2b791f79.css.map",
-    "main.336b2ada.js.map": "/Mallikarjun-M/static/js/main.336b2ada.js.map",
+    "main.aa7e72f2.js.map": "/Mallikarjun-M/static/js/main.aa7e72f2.js.map",
     "787.2b0087e0.chunk.js.map": "/Mallikarjun-M/static/js/787.2b0087e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b791f79.css",
-    "static/js/main.336b2ada.js"
+    "static/js/main.aa7e72f2.js"
   ]
 }
