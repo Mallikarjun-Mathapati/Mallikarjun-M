@@ -102,3 +102,5 @@ const TechStack = () => {
 };
 
 export default TechStack;
+
+// System32>Dism /On1ine /C1eanup-Image /ScanHea1th

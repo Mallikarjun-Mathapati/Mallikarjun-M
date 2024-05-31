@@ -13,10 +13,20 @@ import BookMart from "../Images/Projects/BookMart.png";
 import ShopTop from "../Images/Projects/ShopTop.png";
 import DashBoard from "../Images/Projects/Dashbord.png";
 import Proshikhar from "../Images/Projects/ProShikhar.png";
+import VAEntaerprises from "../Images/Projects/VAEntaerprises.png";
 
 export const ProjectData = [
   {
     id: 1,
+    tittle: "VAEnterprises",
+    tool: "Next.js",
+    image: VAEntaerprises,
+    Categories: "Website",
+    link: "https://thevpenterprises.com/",
+    complete: "Completed",
+  },
+  {
+    id: 2,
     tittle: "Proshikhar",
     tool: "React",
     image: Proshikhar,
@@ -25,16 +35,16 @@ export const ProjectData = [
     complete: "Still Working...",
   },
   {
-    id: 2,
+    id: 3,
     tittle: "VPAtomic",
-    tool: "React",
+    tool: "Next.js",
     image: VPAtomic,
     Categories: "Website",
     link: "https://vpatomic.com",
     complete: "Completed",
   },
   {
-    id: 3,
+    id: 4,
     tittle: "NxtSkills",
     tool: "React",
     image: NxtSkills,
@@ -43,7 +53,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 4,
+    id: 5,
     tittle: "RentalCar",
     tool: "React",
     image: RentalCar,
@@ -52,7 +62,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 5,
+    id: 6,
     tittle: "RoyalX",
     tool: "WordPress",
     image: RoyalX,
@@ -61,7 +71,7 @@ export const ProjectData = [
     complete: "completed",
   },
   {
-    id: 6,
+    id: 7,
     tittle: "Electronic Shop",
     tool: "React",
     image: ElectronicShop,
@@ -70,7 +80,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 7,
+    id: 8,
     tittle: "Stratos IT Solution ",
     tool: "WordPress",
     image: StratosIT,
@@ -79,7 +89,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 8,
+    id: 9,
     tittle: "BUD Digital",
     tool: "React",
     image: BUDDigital,
@@ -88,7 +98,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 9,
+    id: 10,
     tittle: "YouCanUse",
     tool: "React",
     image: YoucanUse,
@@ -97,7 +107,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 10,
+    id: 11,
     tittle: "Dons  Shop",
     tool: "HTML,CSS,Javascript",
     image: DonsShop,
@@ -106,7 +116,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 11,
+    id: 12,
     tittle: "NxtSkills",
     tool: "Designed(Figma)",
     image: NxtSkills2,
@@ -115,7 +125,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 12,
+    id: 13,
     tittle: "LatPas",
     tool: "Designed(Figma)",
     image: LatPas,
@@ -124,7 +134,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 13,
+    id: 14,
     tittle: "BookMart",
     tool: "Designed(Figma)",
     image: BookMart,
@@ -134,7 +144,7 @@ export const ProjectData = [
   },
 
   {
-    id: 14,
+    id: 15,
     tittle: " ShopTop",
     tool: "Designed(Figma)",
     image: ShopTop,
@@ -143,7 +153,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 15,
+    id: 16,
     tittle: " DashBoard",
     tool: "Designed(Figma)",
     image: DashBoard,
