@@ -22,7 +22,7 @@ export const ProjectData = [
     tool: "Next.js",
     image: VAEntaerprises,
     Categories: "Website",
-    link: "https://thevpenterprises.com/",
+    link: "https://thevpenterprises.com",
     complete: "Completed",
   },
   {
@@ -31,7 +31,7 @@ export const ProjectData = [
     tool: "React",
     image: Proshikhar,
     Categories: "Website",
-    link: "https://mallikarjun-mathapati.github.io/Proshikhar/",
+    link: "https://mallikarjun-mathapati.github.io/Proshikhar",
     complete: "Still Working...",
   },
   {
