@@ -16,9 +16,9 @@ const HeroSection = () => {
             </div>
             <div className="hero-section-heading">
               <h1>
-                I am Front End <span className="span-gradient">React</span>{" "}
+                I am a <span className="span-gradient">MERN</span> Stack{" "}
               </h1>
-              <h1>Developer And UX Designer</h1>
+              <h1>Developer And UX/UI Designer</h1>
             </div>
             <div className="hero-section-description">
               <p>

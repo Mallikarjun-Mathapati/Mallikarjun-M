@@ -24,6 +24,7 @@ const Projects = () => {
                   </div>
                   <div className="project-data-tittle">
                     <h4>{curr.tittle}</h4>
+                    <h4>{curr.complete}</h4>
                   </div>
                   <div className="project-data-tool">
                     <h4>{curr.tool}</h4>
