@@ -15,10 +15,41 @@ import DashBoard from "../Images/Projects/Dashbord.png";
 import Proshikhar from "../Images/Projects/ProShikhar.png";
 import VAEntaerprises from "../Images/Projects/VAEntaerprises.png";
 import YouvaBriged from "../Images/Projects/YouvaBriged.png";
+import Utt from "../Images/Projects/UTT.png";
+import Hps from "../Images/Projects/HPS.png";
+import Proshikhar_1 from "../Images/Projects/Proshikhar_2.png";
 
 export const ProjectData = [
   {
     id: 1,
+    tittle: "Universal Travel & Tourism",
+    tool: "Next.js",
+    image: Utt,
+    Categories: "Website",
+    link: "https://universaltt.netlify.app/",
+    complete: "Working...",
+  },
+
+  {
+    id: 2,
+    tittle: "Proshikhar-1",
+    tool: "Next.js",
+    image: Proshikhar_1,
+    Categories: "Website",
+    link: "https://proshikhsr.netlify.app/",
+    complete: "Working...",
+  },
+  {
+    id: 3,
+    tittle: "Horton Pixels",
+    tool: "Next.js",
+    image: Hps,
+    Categories: "Website",
+    link: "https://hortonpixels.netlify.app/",
+    complete: "Completed",
+  },
+  {
+    id: 4,
     tittle: "Yuva Briged",
     tool: "Next.js",
     image: YouvaBriged,
@@ -27,7 +58,7 @@ export const ProjectData = [
     complete: "Working...",
   },
   {
-    id: 2,
+    id: 5,
     tittle: "VAEnterprises",
     tool: "Next.js",
     image: VAEntaerprises,
@@ -36,7 +67,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 3,
+    id: 6,
     tittle: "Proshikhar",
     tool: "React",
     image: Proshikhar,
@@ -45,7 +76,7 @@ export const ProjectData = [
     complete: "Still Working...",
   },
   {
-    id: 4,
+    id: 7,
     tittle: "VPAtomic",
     tool: "Next.js",
     image: VPAtomic,
@@ -54,7 +85,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 5,
+    id: 8,
     tittle: "NxtSkills",
     tool: "React",
     image: NxtSkills,
@@ -63,7 +94,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 6,
+    id: 9,
     tittle: "RentalCar",
     tool: "React",
     image: RentalCar,
@@ -72,7 +103,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 7,
+    id: 10,
     tittle: "RoyalX",
     tool: "WordPress",
     image: RoyalX,
@@ -81,7 +112,7 @@ export const ProjectData = [
     complete: "completed",
   },
   {
-    id: 8,
+    id: 11,
     tittle: "Electronic Shop",
     tool: "React",
     image: ElectronicShop,
@@ -90,7 +121,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 9,
+    id: 12,
     tittle: "Stratos IT Solution ",
     tool: "WordPress",
     image: StratosIT,
@@ -99,7 +130,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 10,
+    id: 13,
     tittle: "BUD Digital",
     tool: "React",
     image: BUDDigital,
@@ -108,7 +139,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 11,
+    id: 14,
     tittle: "YouCanUse",
     tool: "React",
     image: YoucanUse,
@@ -117,7 +148,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 12,
+    id: 15,
     tittle: "Dons  Shop",
     tool: "HTML,CSS,Javascript",
     image: DonsShop,
@@ -126,7 +157,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 13,
+    id: 16,
     tittle: "NxtSkills",
     tool: "Designed(Figma)",
     image: NxtSkills2,
@@ -135,7 +166,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 14,
+    id: 17,
     tittle: "LatPas",
     tool: "Designed(Figma)",
     image: LatPas,
@@ -144,7 +175,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 15,
+    id: 18,
     tittle: "BookMart",
     tool: "Designed(Figma)",
     image: BookMart,
@@ -154,7 +185,7 @@ export const ProjectData = [
   },
 
   {
-    id: 16,
+    id: 19,
     tittle: " ShopTop",
     tool: "Designed(Figma)",
     image: ShopTop,
@@ -163,7 +194,7 @@ export const ProjectData = [
     complete: "Completed",
   },
   {
-    id: 17,
+    id: 20,
     tittle: " DashBoard",
     tool: "Designed(Figma)",
     image: DashBoard,

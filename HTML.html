@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume Template</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .resume {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 30px;
+            border-bottom: 1px solid #ddd;
+            overflow: hidden;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .job-title {
+            background-color: #4267B2;
+            color: white;
+            padding: 8px 20px;
+            display: inline-block;
+            margin-top: 10px;
+            float: right;
+        }
+
+        .content {
+            display: flex;
+            width: 100%;
+        }
+
+        .left-column {
+            width: 30%;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        .right-column {
+            width: 70%;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 15px 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            color: #555;
+        }
+
+        .bio-item {
+            margin-bottom: 10px;
+        }
+
+        .skill-item {
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            margin-bottom: 5px;
+        }
+
+        .skill-dots {
+            display: flex;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+            background-color: #4267B2;
+        }
+
+        .dot.empty {
+            background-color: #ddd;
+        }
+
+        .summary {
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .course,
+        .internship,
+        .education-item,
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .project-number {
+            width: 25px;
+            height: 25px;
+            background-color: #4267B2;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .live-tag {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 2px 5px;
+            font-size: 12px;
+            margin-left: 10px;
+            border-radius: 3px;
+        }
+
+        .skills-used {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .left-column,
+            .right-column {
+                width: 100%;
+                border-right: none;
+            }
+
+            .left-column {
+                border-bottom: 1px solid #ddd;
+            }
+
+            .job-title {
+                float: none;
+                display: block;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .name {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume">
+        <div class="header">
+            <div class="name">YOUR NAME</div>
+            <div class="job-title">Front End Developer / UX designer</div>
+        </div>
+
+        <div class="content">
+            <div class="left-column">
+                <div class="section-title">Contact</div>
+                <div class="contact-item">
+                    <i>📱</i>
+                    <div>+91 1234567890</div>
+                </div>
+                <div class="contact-item">
+                    <i>📧</i>
+                    <div>your.email@gmail.com</div>
+                </div>
+                <div class="contact-item">
+                    <i>📍</i>
+                    <div>Your City</div>
+                </div>
+                <div class="contact-item">
+                    <i>🔗</i>
+                    <div>LinkedIn</div>
+                </div>
+                <div class="contact-item">
+                    <i>🌐</i>
+                    <div>Personal Website</div>
+                </div>
+
+                <div class="section-title">Bio</div>
+                <div class="bio-item">
+                    <div><strong>Gender:</strong> Your Gender</div>
+                </div>
+                <div class="bio-item">
+                    <div><strong>Date Of Birth:</strong> DD-MM-YYYY</div>
+                </div>
+                <div class="bio-item">
+                    <div><strong>Nationality:</strong> Your Nationality</div>
+                </div>
+
+                <div class="section-title">Skills</div>
+                <div class="skill-item">
+                    <div class="skill-name">Communication Skill</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">User Research</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Creativity Skill</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Transferable Skill</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Web Standards</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Analytics</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">User Experience (UX)</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Coding</div>
+                    <div class="skill-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot empty"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="section-title">Summary</div>
+                <div class="summary">
+                    Entry-level Front-End Developer excited at the prospect of developing websites and designing
+                    experiments in a professional setting. Hard-working worker recognized by peers for my effective
+                    creative thinking and multitasking skills. Looking to apply my understanding of UX Design and
+                    JavaScript at your company.
+                </div>
+
+                <div class="section-title">Courses</div>
+                <div class="course">
+                    <div><strong>Front End Developer Course (2022)</strong></div>
+                    <div>(Institution Name, Location)</div>
+                </div>
+                <div class="course">
+                    <div><strong>Google UX Design Professional Certificate From Google (2022)</strong></div>
+                    <div>(Google Career Certificates Platform)</div>
+                </div>
+
+                <div class="section-title">Internship</div>
+                <div class="internship">
+                    <div><strong>Company Name (Location)</strong></div>
+                    <div>As A Front end Developer and UX/UI Designer (Duration)</div>
+                </div>
+
+                <div class="section-title">Education</div>
+                <div class="education-item">
+                    <div><strong>Master of Degree</strong></div>
+                    <div>University Name (Year)</div>
+                </div>
+                <div class="education-item">
+                    <div><strong>Bachelor of Degree</strong></div>
+                    <div>University Name (Year)</div>
+                </div>
+
+                <div class="section-title">Projects and Portfolios</div>
+                <div class="project">
+                    <div class="project-title">
+                        <div class="project-number">1</div>
+                        <div><strong>Project Name</strong></div>
+                        <div class="live-tag">LIVE</div>
+                    </div>
+                    <div>(As a front-end developer and UX designer)</div>
+                    <div class="skills-used"><strong>Skills:</strong> HTML, CSS, JavaScript, Next.js, UX Design,
+                        Responsive Design</div>
+                </div>
+                <div class="project">
+                    <div class="project-title">
+                        <div class="project-number">2</div>
+                        <div><strong>Project Name</strong></div>
+                        <div class="live-tag">LIVE</div>
+                    </div>
+                    <div>(As a front-end developer and UX designer)</div>
+                    <div class="skills-used"><strong>Skills:</strong> HTML, CSS, JavaScript, Next.js, UX Design,
+                        Responsive Design</div>
+                </div>
+                <div class="project">
+                    <div class="project-title">
+                        <div class="project-number">3</div>
+                        <div><strong>Project Name</strong></div>
+                        <div class="live-tag">LIVE</div>
+                    </div>
+                    <div>(As a front-end developer and UX designer)</div>
+                    <div class="skills-used"><strong>Skills:</strong> HTML, CSS, JavaScript, Next.js, UX Design,
+                        Responsive Design</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
